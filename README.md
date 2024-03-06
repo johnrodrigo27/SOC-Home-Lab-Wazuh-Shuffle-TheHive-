@@ -55,11 +55,16 @@ To create a scalable and replicable SOC environment within a home lab setting, f
     - Set up case management workflows for handling incidents reported by Wazuh.
 
 ## Useful Tips
+1. **Logging into Wazuh**:
+    - Access the Wazuh dashboard by navigating to `https://public-ip-address-of-wazuh-server` in your web browser.
 
-1. **Monitoring Windows Services**:
+2. **Logging into TheHive**:
+    - Access TheHive through your web browser by navigating to `http://public-ip-address-of-thehive-server:9000/login`. Use the default credentials `admin@thehive.local` and password `secret` to log in.
+
+3. **Monitoring Windows Services**:
     - To check running services: Go to Start, type "services".
     - To access application and service logs: Go to Start, type "event viewer", and click on "application and service logs".
 
-2. **Identifying Public IP Address**:
+4. **Identifying Public IP Address**:
     - To find out your public IP, visit [whatismyipaddress.com](https://whatismyipaddress.com).
 
